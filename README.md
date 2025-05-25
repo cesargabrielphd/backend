@@ -1,3 +1,5 @@
+> README.md em desenvolvimento
+
 # Pacote `backend`
 
 Este diretório reúne as principais funcionalidades de automação, processamento de dados e suporte à publicação acadêmica do repositório.
