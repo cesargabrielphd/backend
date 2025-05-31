@@ -1,3 +1,5 @@
+
+# como rodar no CODESPACES: > (.venv) @cesargabrielphd ➜ /workspaces/books (dev2) $ python ./dividir_pdf.py
 import fitz  # PyMuPDF
 
 def split_pdf_vertically_text(input_pdf_path, output_pdf_path):
@@ -31,7 +33,7 @@ def split_pdf_vertically_text(input_pdf_path, output_pdf_path):
     original.close()
 
 if __name__ == "__main__":
-    input_pdf = "entrada.pdf"
-    output_pdf = "saida.pdf"
+    input_pdf = "./input.pdf"
+    output_pdf = "./Analise-Combinatoria-e-Probabilidade_Morgado.pdf"
     split_pdf_vertically_text(input_pdf, output_pdf)
     print("PDF dividido ao meio com sucesso! (mantendo texto pesquisável)")
